@@ -1,15 +1,15 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-   font-family: var(--main-font, monospace, sans-serif);
-	 font-size: var(--main-size);
-	 color: var(--text-color, #f1b2ce);
-	 background-image: var(--bgd-image);
-	 background-size: cover;
-	 background-position: center;
-	 background-attachment: fixed;
-	 background-color: var(--bgd-color, #000028);
-	 padding: 0 var(--padding-s);
+  font-family: var(--main-font, monospace, sans-serif);
+	font-size: var(--main-size);
+	color: var(--text-color, #f1b2ce);
+	background-image: var(--bgd-image);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: var(--bgd-color, #000028);
+	padding: 0 var(--padding-s);
 }
 /* Подход десктоп ферст */
 @media (min-width: 768px) {

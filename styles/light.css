@@ -5,19 +5,19 @@
 */
 
 .page.theme_light {
-    --bgd-color: #fff1f7;
-    --decor-color: #353430;
-	  --button-color: #353430;
-	  --hover-color: rgb(50 49 45 / 0.4);
-	  --focus-color: #ffc2e6;
-	  --shadow-color: #ff0070;
-	  --title-color: #353430;
-	  --bgd-title-color: #ff8dcb;
-	  --content-title-color: #353430;
-	  --text-color: #353430;
-	  --link-accent-color: #ff8dcb;
-	  --bgd-image: url(../images/cover-image-light.png);
-	  --display: none;
+  --bgd-color: #fff1f7;
+  --decor-color: #353430;
+	--button-color: #353430;
+	--hover-color: rgb(50 49 45 / 0.4);
+	--focus-color: #ffc2e6;
+  --shadow-color: #ff0070;
+  --title-color: #353430;
+	--bgd-title-color: #ff8dcb;
+	--content-title-color: #353430;
+	--text-color: #353430;
+	--link-accent-color: #ff8dcb;
+	--bgd-image: url(../images/cover-image-light.png);
+  --display: none;
 }
 
 @media (prefers-color-scheme: light) {
