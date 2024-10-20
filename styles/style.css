@@ -1,7 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: var(--main-font, monospace, sans-serif);
+	/* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+	font-family: var(--main-font, monospace, sans-serif);
 	font-size: var(--main-size);
 	color: var(--text-color, #f1b2ce);
 	background-image: var(--bgd-image);
@@ -14,8 +15,8 @@
 /* Подход десктоп ферст */
 @media (min-width: 768px) {
 	.page {
-		padding: 0 var(--padding-m);
-	}
+    padding: 0 var(--padding-m);
+  }
 }
 
 .header {
