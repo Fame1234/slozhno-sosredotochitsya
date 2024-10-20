@@ -2,23 +2,18 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  font-family: var(--main-font, monospace, sans-serif);
-	font-size: var(--main-size);
-	color: var(--text-color, #f1b2ce);
-	background-image: var(--bgd-image);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-color: var(--bgd-color, #000028);
-	padding: 0 var(--padding-s);
+
+   font-family: var(--main-font, monospace, sans-serif);
+	 font-size: var(--main-size);
+	 color: var(--text-color, #f1b2ce);
+	 background-image: var(--bgd-image);
+	 background-size: cover;
+	 background-position: center;
+	 background-attachment: fixed;
+	 background-color: var(--bgd-color, #000028);
+	 padding: 0 var(--padding-s);
 }
 /* Подход десктоп ферст */
-@media (min-width: 768px) {
-	.page {
-		padding: 0 var(--padding-m);
-	}
-}
-
 @media (min-width: 768px) {
 	.page {
 		padding: 0 var(--padding-m);
@@ -211,26 +206,22 @@
 
 /* теперь основной контент */
 
-article {
+section {
 	margin-block-end: 30px;
 }
 
 @media (min-width: 768px) {
-	article {
+	section {
 		margin-block-end: 80px;
 	}
 }
 
 @media (min-width: 768px) {
-  .card__why,
-	.card__what,
-	.card__how,
-	.card__list-why,
-	.card__list-what,
-	.card__list-how,
-  .content__packet{
-		display: grid;
-		gap: 20px;
+   .section,
+	 .card__list,
+   .content__packet{
+		 display: grid;
+		 gap: 20px;
 	}
 	.card__why,
 	.card__how {
@@ -250,7 +241,7 @@ article {
 		grid-template-rows: repeat(5, auto);
 	}
 
-	.cardt__list-item {
+	.card__list-item {
 		display: grid;
 		grid-template-rows: 23px auto;
 		gap: 9px;
@@ -305,8 +296,9 @@ article {
 	.content__packet > h3 {
 		margin-block-end: 0;
 	}
+
 	.content__text {
-		padding: 0;
+		padding: 1;
 	}
 }
 
@@ -323,7 +315,7 @@ article {
 	outline: 1px solid currentColor;
 }
 
-.item_title-accent {
+.item__title--accent {
 	font-weight: 400;
 }
 
